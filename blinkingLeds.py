@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 import time
 import os
 
-GPIO.setwarnings(false)
+GPIO.setwarnings(False)
 
 ledMode = (random.randint(1,4))  
 print (ledMode)
