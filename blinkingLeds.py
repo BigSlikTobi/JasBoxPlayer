@@ -24,7 +24,7 @@ GPIO.setup(4,GPIO.OUT)
 
 
 
-while True:
+
  if GPIO.input(27) ==GPIO.HIGH:
 
 
