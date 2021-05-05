@@ -6,7 +6,7 @@ import os
 ledMode = (random.randint(1,4))  
 print (ledMode)
 
-GPIO.setmode(GPIO.BOARD)
+GPIO.setmode(GPIO.BCM)
 GPIO.setup(27,GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(26,GPIO.OUT)
 GPIO.setup(12,GPIO.OUT)
