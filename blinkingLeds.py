@@ -18,6 +18,7 @@ GPIO.setup(24,GPIO.OUT)
 GPIO.setup(23,GPIO.OUT)
 GPIO.setup(22,GPIO.OUT)
 GPIO.setup(4,GPIO.OUT)
+GPIO.setwarnings(false)
 
 
 
