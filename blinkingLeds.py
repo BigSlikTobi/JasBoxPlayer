@@ -7,7 +7,7 @@ ledMode = (random.randint(1,4))
 print (ledMode)
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(4,GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(27,GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(26,GPIO.OUT)
 GPIO.setup(12,GPIO.OUT)
 GPIO.setup(13,GPIO.OUT)
@@ -111,7 +111,7 @@ while True:
     else :
 
         for x in range(0,15): 
-            pin = randint (4,22,23,24,25,5,6,13,12,26)
+            pin = random.randint (4,22,23,24,25,5,6,13,12,26)
             GPIO.output(pin,1)
             time.sleep(0.3)
             GPIO.output(pin,0)
